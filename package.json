@@ -1,0 +1,8 @@
+{
+  "name": "porac-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "cd porac-tourism && npm install",
+    "build": "cd porac-tourism && npm run build && cp -r dist ../dist"
+  }
+}
